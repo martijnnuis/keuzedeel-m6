@@ -1,14 +1,12 @@
 # keuzedeel-m6
 hier zijn alle documentatie en code bestanden te vinden voor het keuze deel
 
-**onderzoeks verslag**
-
-Onderzoeksverslag
+*onderzoeks verslag*
 
 
-Contents
-ONDERZOEKVERSLAG VR BRIL	2
-Onderzoek Ball dispencer	3
+Contents,
+ONDERZOEKVERSLAG VR BRIL	2,
+Onderzoek Ball dispencer	3,
 conclusie	5
 
 
@@ -81,4 +79,6 @@ Cons:
 Conclusie
 
 Ik heb zoals u al hebt kunnen lezen ervoor gekozen om de bal machine te maken dit omdat het mij interessant lijkt om te werken met een laser snijder en een ontwerpprogramma. Daarnaast vindt het leren om met een game engine aan de slag te gaan niet heel interessant omdat dit veel tijd zal innemen en waarschijnlijk niet op tijd af zal zijn, het lijkt me ook lastig om een in game wereld te creëren waar er dan buiten iets gebeurt zonder dat degene die de input kan zien wat er gebeurd.
+
+*functioneel en technisch design plan*
 
