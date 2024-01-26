@@ -1,0 +1,75 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 4rem;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  flex-wrap: wrap;
+  animation-name: backgroundColorPalette;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear; 
+}
+
+.colorButton{
+    border: none;
+    background: transparent;
+}
+
+.buttonLabelRed{
+  width: 50rem;
+  height: 50rem;
+  border-radius: 50%;
+  background: red;
+}
+
+
+.buttonLabelYellow{
+  width: 50rem;
+  height: 50rem;
+  border-radius: 50%;
+  background: yellow;
+}
+
+.buttonLabelGreen{
+  width: 50rem;
+  height: 50rem;
+  border-radius: 50%;
+  background: green;
+}
+
+.grey{
+  background: gray;
+  pointer-events: none;
+}
+
+@keyframes backgroundColorPalette {
+	0% {
+		background: #ee6055;
+	}
+	25% {
+		background: #60d394;
+	}
+	50% {
+		background: #aaf683;
+	}
+	75% {
+		background: #ffd97d;
+	}
+	100% {
+		background: #ff9b85;
+	}
+}
